@@ -20,6 +20,10 @@ Where CERTIFICATE_NAME is something like *University Corporation for Atmospheric
 - Make a directory for the cave template called `awips2-cave-template`
 - Add a symlink for the system Applications dir in this template directory
     - `ln -s /Applications Applications` 
+- Add symlink for Info.plist that points to the `awips2-builds` repo
+    - `ln -s /Users/awips1/dev/awips2-builds/cave/com.raytheon.viz.product.awips/Info.plist Info.plist`
+- Add the `libjep.dylib` file here
+    - not sure where you're supposed to get this originally, but can copy from other build repos that have been used before
 - Run **create.sh ${cave_export_directory}** to prepare the directory **awips2-cave-template**
     - This will prompt for password, it's expecting the user's password (awips1 for lenny for example)
 
