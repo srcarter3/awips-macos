@@ -10,11 +10,17 @@ Where CERTIFICATE_NAME is something like *University Corporation for Atmospheric
 
 ## 2. Export developer.product from Eclipse
 
+- Right-click on the `developer.product` in the Project Explorer > Click "Export..."
+- Choose "Plug-in Development" > "Eclipse product" > "Next"
+- Choose a destination directory for the "Directory" section in the middle of the window
+- Proceed with other default settings > "Finish"
+
 ## 3. Create application folder
 
-Run **create.sh ${cave_export_directory}** to prepare the directory **awips2-cave-template**
+- Make a directory for the cave template called `awips2-cave-template`
+- Run **create.sh ${cave_export_directory}** to prepare the directory **awips2-cave-template**
 
 ## 4. Create DMG
 
-Run **dmg.sh** to create a signed DMG for distribution from **awips2-cave-template**
+- Run **dmg.sh** to create a signed DMG for distribution from **awips2-cave-template**
 
