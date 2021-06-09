@@ -18,6 +18,8 @@ Where CERTIFICATE_NAME is something like *University Corporation for Atmospheric
 ## 3. Create application folder
 
 - Make a directory for the cave template called `awips2-cave-template`
+- Add a symlink for the system Applications dir in this template directory
+    - `ln -s /Applications Applications` 
 - Run **create.sh ${cave_export_directory}** to prepare the directory **awips2-cave-template**
     - This will prompt for password, it's expecting the user's password (awips1 for lenny for example)
 
