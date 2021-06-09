@@ -14,7 +14,7 @@
 
 ## 3. Create the dmg
 
-- Run **create.sh ${cave_export_directory}** to prepare the directory **awips2-cave-template**
+- Run `create.sh ${cave_export_directory}` to prepare the directory `awips2-cave-template`
     - This will prompt for password, it's expecting the user's password (awips1 for lenny for example)
 - Modify the `dmg.sh` to have the proper, new version number
 - Run **dmg.sh** to create a signed DMG for distribution from **awips2-cave-template**
