@@ -4,8 +4,6 @@
 - Copy the contents from the `awips2` repo into here
    - `cp -RP ~/awips2/build/macOS/* ./`
    - the `-RP` options are used to make sure the template directory and symlink are copied over properly
-- Because git only tracks files, you cannot have an empty directory, so now make the `osx_release` directory
-   - `mkdir osx_release` 
 
 ## 2. Export from Eclipse
 
