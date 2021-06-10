@@ -1,4 +1,4 @@
-> **Quick Note:** the latest version of all the files exists in the awips2-builds repo, on the latest mac branch, in the /build/macOS directory  
+> **Quick Note:** the latest version of all these files exist in the `awips2-builds` repo, on the latest **mac branch**, in the `/build/macOS` directory  
 > Ex: [18.2.1-osx](https://github.com/Unidata/awips2/tree/unidata_18.2.1-osx/build/macOS)
 
 ## 1. Set up a "working" build directory
